@@ -33,3 +33,84 @@ body {
 	margin: 0;
 }
 
+h1,
+h2 {
+	font-family: 'Playfair Display', serif;
+}
+
+p {
+	font-family: 'Lora', serif;
+}
+
+.logo {
+	width: 170px;
+}
+
+.paticka {
+	background-color: #303339;
+	color: white;
+	margin-bottom: 0;
+	padding: 30px;
+	text-align: center;
+}
+
+.paticka p {
+	margin: 0;
+}
+
+.hlavicka {
+	margin: 30px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.menu {
+	padding: 0;
+}
+
+.tlacitko {
+	text-decoration: none;
+	color: black;
+	/* border: 1px solid black; */
+	padding: 10px 15px;
+}
+
+.tlacitko:hover {
+	background-color: #f195b2;
+	color: white;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+
+.uvod {
+	background-image: url(images/cupcake.jpg);
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-right: 40%;
+}
+
+.uvod h1 {
+	font-size: 52px;
+}
+
+.uvod p {
+	font-style: italic;
+	font-size: 24px;
+}
+
+.vitejte-v-cukrarne {
+	display: flex;
+}
+
+.vyrobky {
+	text-decoration: none;
+	padding: 15px 40px;
+	background-color: #f195b2;
+	border-radius: 30px;
+}
