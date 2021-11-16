@@ -33,6 +33,23 @@ body {
 	margin: 0;
 }
 
+.sekce {
+	padding: 80px 0;
+}
+
+h1 {
+	font-size: 51px;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	color: #3e606b;
+}
+
 h1,
 h2 {
 	font-family: 'Playfair Display', serif;
@@ -40,6 +57,10 @@ h2 {
 
 p {
 	font-family: 'Lora', serif;
+}
+
+img {
+	border-radius: 5px;
 }
 
 .logo {
@@ -62,6 +83,9 @@ p {
 	margin: 30px 0;
 	display: flex;
 	justify-content: space-between;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .menu li {
@@ -76,7 +100,6 @@ p {
 .tlacitko {
 	text-decoration: none;
 	color: black;
-	/* border: 1px solid black; */
 	padding: 10px 15px;
 }
 
@@ -92,11 +115,15 @@ p {
 	color: white;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-right: 40%;
+	/* padding: 80px 0; */
 }
 
-.uvod h1 {
-	font-size: 52px;
+.uvod-obsah {
+	padding-right: 40%;
+	max-width: 1100px;
+	margin: 0;
+	margin-left: auto;	/* toto musí být pod "margin: 0; jelikož ten by nám ty "auto" přebyl*/
+	margin-right: auto; /* toto musí být pod "margin: 0; jelikož ten by nám ty "auto" přebyl*/
 }
 
 .uvod p {
@@ -104,8 +131,19 @@ p {
 	font-size: 24px;
 }
 
-.vitejte-v-cukrarne {
+/* .vitejte-v-cukrarne {
+	padding: 80px 0;
+} */
+
+.vitejte-obsah {
+	max-width: 1100px;
 	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.vitejte-levy {
+	margin-right: 30px;
 }
 
 .vyrobky {
@@ -113,4 +151,59 @@ p {
 	padding: 15px 40px;
 	background-color: #f195b2;
 	border-radius: 30px;
+	display: inline-block;
+	color: white;
+}
+
+.vyrobky:hover {
+	background-color: #d2567d;
+}
+
+.dnesni-nabidka {
+	background-color: #f0f0f0;
+}
+
+.nabidka-div {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nabidka-obsah {
+	display: flex;
+}
+
+.produkt {
+	background-color: white;
+	text-align: center;
+	flex-basis: calc((100% - 90px) / 4);
+	justify-content: space-between;
+	border-radius: 5px;
+}
+
+.produkt h3,
+.produkt p {
+	margin: 20px;
+}
+
+.produkt p {
+	margin-top: 0;
+}
+.obrazek {
+	width: 100%;
+}
+
+.pristup-kontejner {
+	display: flex;
+	max-width: 1100px;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.pristup {
+	flex: 0 1 calc((100% - 30px) /2);
+}
+
+.pristup-levy img {
+	width: 100%;
 }
