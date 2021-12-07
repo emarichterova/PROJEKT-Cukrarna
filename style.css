@@ -171,13 +171,13 @@ img {
 
 .nabidka-obsah {
 	display: flex;
+	justify-content: space-between;
 }
 
 .produkt {
 	background-color: white;
 	text-align: center;
 	flex-basis: calc((100% - 90px) / 4);
-	justify-content: space-between;
 	border-radius: 5px;
 }
 
